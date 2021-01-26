@@ -1,33 +1,77 @@
-.home{
-	background:url(../img/home.jpg) no-repeat center;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-    min-height: 770px;
+.home {
+  background: url(../img/home.jpg) center center / cover no-repeat;
+  height: 100%;
+  width: 100%;
+  min-height: 770px;
 }
 
 .navbar-custom {
-  background-color: #303030;
+  background-color: #2C2C2C;
 }
 
 .nav-link {
-  color: #FDFDFD;
+  color: #A1A1A1;
 }
 
 .nav-link:hover {
   color: #FFC0CB;
 }
 
-.home h3 {
+.block h3 {
   color: #FFC0CB;
   font-family: 'Anonymous Pro', monospace;
   font-size: 30px;
 }
 
-.home h2 {
+.block h5 {
+  color: #A1A1A1;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+}
+
+.block h4 {
+  color: #A1A1A1;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 15px;
+}
+
+.block h2 {
   color: #FFC0CB;
   font-family: 'Anonymous Pro', monospace;
   font-size: 50px;
+}
+
+.block a {
+  color: #FFC0CB;
+}
+
+.aboutme {
+  background-color: #A1A1A1;
+  min-height: 800px;
+  height: 120%;
+  position: relative;
+  width: 100%;
+}
+
+.projects {
+  background-color: #404040;
+  min-height: 800px;
+  height: 120%;
+  position: relative;
+  width: 100%;
+}
+
+.publications {
+  background-color: #A1A1A1;
+  min-height: 800px;
+  height: 120%;
+  position: relative;
+  width: 100%;
+}
+
+.contact {
+  background-color: #404040;
+  height: 120%;
+  position: relative;
+  width: 100%;
 }
