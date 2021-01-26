@@ -1,0 +1,33 @@
+.home{
+	background:url(../img/home.jpg) no-repeat center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+    min-height: 770px;
+}
+
+.navbar-custom {
+  background-color: #303030;
+}
+
+.nav-link {
+  color: #FDFDFD;
+}
+
+.nav-link:hover {
+  color: #FFC0CB;
+}
+
+.home h3 {
+  color: #FFC0CB;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+}
+
+.home h2 {
+  color: #FFC0CB;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 50px;
+}
