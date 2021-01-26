@@ -6,7 +6,7 @@
 }
 
 .navbar-custom {
-  background-color: #2C2C2C;
+  background-color: rgba(44,44,44,0.5);
 }
 
 .nav-link {
@@ -23,8 +23,14 @@
   font-size: 30px;
 }
 
-.block h5 {
+.block-dark h5 {
   color: #A1A1A1;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 30px;
+}
+
+.block-light h5 {
+  color: #404040;
   font-family: 'Anonymous Pro', monospace;
   font-size: 30px;
 }
@@ -35,10 +41,19 @@
   font-size: 15px;
 }
 
+.card-title {
+  color: #404040;
+  font-size: 20px;
+}
+
 .block h2 {
   color: #FFC0CB;
   font-family: 'Anonymous Pro', monospace;
   font-size: 50px;
+}
+
+.card-light {
+  border: 4px solid #404040;
 }
 
 .block a {
