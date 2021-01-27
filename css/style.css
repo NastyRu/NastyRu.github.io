@@ -3,6 +3,7 @@
   height: 100%;
   width: 100%;
   min-height: 770px;
+  background-attachment: fixed;
 }
 
 .navbar-custom {
@@ -75,27 +76,27 @@
 }
 
 .aboutme {
-  background-color: #A1A1A1;
-  min-height: 800px;
-  height: 120%;
-  position: relative;
+  background: url(../img/aboutme.JPG) center center / cover no-repeat;
+  height: 100%;
   width: 100%;
+  min-height: 770px;
+  background-attachment: fixed;
 }
 
 .projects {
-  background-color: #404040;
-  min-height: 800px;
-  height: 120%;
-  position: relative;
+  background: url(../img/projects.JPG) center center / cover no-repeat;
+  height: 100%;
   width: 100%;
+  min-height: 770px;
+  background-attachment: fixed;
 }
 
 .publications {
-  background-color: #A1A1A1;
-  min-height: 800px;
-  height: 120%;
-  position: relative;
+  background: url(../img/publications.JPG) center center / cover no-repeat;
+  height: 100%;
   width: 100%;
+  min-height: 770px;
+  background-attachment: fixed;
 }
 
 .contact {
